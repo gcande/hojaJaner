@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hoja de vida</title>
+</head>
+
+<body onload="startTime()">
+
+    <div class="Container">
+
+        <fieldset class="PrimerField">
+            <div id = "Imagen" style="float: left; margin-left: 10px;">
+                <img width="100" src="Imagenes/EscudoColombia.jpg">
+            </div>
+
+            <div style="float: left; margin-left: 350px;">
+
+                <p>FORMATO ÚNICO</p>
+                <font size="4"> 
+                    <h2>HOJA DE VIDA</h2> 
+                </font>
+        
+                <font size="4">
+                    <p>Persona Natural</p>
+                </font>
+                
+                <p>(Leyes 190 de 1995, 489 y 443 de 1998)</p>
+
+            </div>
+
+            <div id="relog">
+                <div id="clockdate">
+                    <div class="clockdate-wrapper">
+                      <div id="clock"></div>
+                      <div id="date"></div>
+                    </div>
+                  </div>
+            </div>
+    
+        </fieldset>
+    
+        <legend id="Datos"> <strong>DATOS ACADEMICOS</strong></legend>
+    
+        <i>
+            <font face="Arial" size="1.9">
+                <fieldset class = "SegundoField">
+                
+                    <!-- Primer Div -->
+                        <div>
+                            <div class = "Div">
+                                <p> <i> PRIMER APELLIDO </i> </p>
+                                <input type="text" class="InputNombre" id="PrimerApellido"required>
+                            </div>
+                    
+                            
+                            <div class = "Div">
+                                <p> <i> SEGUNDO APELLIDO (O DE CASADA) </i></p>
+                                <input type="text" class="InputNombre" id="SegundoApellido" required>
+                            </div>
+                    
+                            <div class = "Div">
+                                <p>NOMBRES</p>
+                                <input type="text" class="InputNombre" id="Nombres" required>
+                            </div>
+                
+                        </div>
+                
+                        <!-- Segundo Div-->
+                        <div>
+                            <div id = "Div1">
+                                <p>DOCUMENTO DE IDENTIFICACION</p>
+    
+                                <font size = "2">
+                                    <p style="font-weight: bold;">C.C</p>
+                                </font>
+    
+                                <div class = "Circle">
+                                    
+                                </div>
+    
+                                <font size = "2">
+                                    <p id = "CE" style="font-weight: bold;">C.E</p>
+                                </font>
+    
+                                <div class = "Circle1" >
+    
+                                </div>
+    
+                                <font size = "2">
+                                    <p id = "PAS" style="font-weight: bold;">PAS</p>
+                                </font>
+    
+                                <div class = "Circle2">
+    
+                                </div>
+
+                                
+                                <font size = "2">
+                                    <p id = "No" style="font-weight: bold; float: left;">No. <input type="number" class="InputNombre"> </p>
+                                    
+                                </font>
+                            </div>
+                    
+                            
+                            <div id = "Div2">
+                                <p>SEXO</p>
+    
+                                <font size = "2">
+                                    <p id = "F" style="font-weight: bold;">F</p>
+                                </font>
+    
+                                <div class = "CircleSexo">
+    
+                                </div>
+    
+                                <font size = "2">
+                                    <p id = "M" style="font-weight: bold;">M</p>
+                                </font>
+    
+                                <div class = "CircleSexo1">
+    
+                                </div>
+                            </div>
+                    
+                            <div id = "Div3">
+                                <p>NACIONALIDAD</p>
+    
+                                <p style="margin-top: -20px; margin-left: 210px;">PAIS</p>
+                                <font size = "2">
+                                    <p id = "COL" style="font-weight: bold;">COL.</p>
+                                </font>
+    
+                                <div class = "CircleNacionalidad">
+    
+                                </div>
+    
+                                <font size = "2">
+                                    <p style="margin-top: -15px; margin-left: 70px; font-weight: bold;">EXTRANJERO</p>
+                                </font>
+    
+                                <div class = "CircleNacionalidad1">
+    
+                                </div>
+                                
+                                <p style="margin-top: -14px; margin-left: 210px; font-weight: bold;"> <input type="text" class="InputNombre"> </p>
+                            </div>
+                        </div>
+                
+                        
+                        <div class = "division">
+                            <p>LIBRETA MILITAR</p>
+    
+                            <font size = "2">
+                                <p style="font-weight: bold;">PRIMERA CLASE</p>
+                            </font>
+    
+                            <div class = "CircleLibreta">
+    
+                            </div>
+    
+                            <font size = "2">
+                                <p style="margin-top: -15px; margin-left: 167px; font-weight: bold;">SEGUNDA CLASE</p>
+                            </font>
+    
+                            <div class = "CircleLibreta1">
+    
+                            </div>
+
+                            <font size = "2">
+                                 <p style="margin-top: -15px; margin-left: 380px; font-weight: bold;"> Numero: <input type="number" class="InputNombre"> </p>
+                            </font>
+    
+                            <font size = "2">
+                                <p style="margin-top: -28px; margin-left: 700px; font-weight: bold;">D.M:  <input type="text" class="InputNombre"> </p>
+                            </font>
+                        </div>
+                
+                        <div>
+                            <div class = "Division">
+                                <p>FECHA Y LUGAR DE NACIMIENTO</p>
+    
+                                <font size = "2">
+                                    <p style="margin-top: 10px; font-weight: bold;">FECHA</p>
+                                    <p style="margin-top: 8px; font-weight: bold;">PAIS</p>
+                                    <p style="margin-top: 8px; font-weight: bold;">DEPTO</p>
+                                    <p style="margin-top: 8px; font-weight: bold;">MUNICIPIO</p>
+                                    <p style="margin-top: -120px; margin-left: 80px; font-weight: bold;">DIA</p>
+                                    <p style="margin-top: -24px; margin-left: 190px; font-weight: bold;">MES</p>
+                                    <p style="margin-top: -24px; margin-left: 315px; font-weight: bold;">AÑO</p>
+                                    <p style="margin-top: 6px; margin-left: 80px; font-weight: bold;"><input type="number" class="InputNombre"></p>
+                                    <p style="margin-top: 8px; margin-left: 80px; font-weight: bold;"><input type="number" class="InputNombre"></p>
+                                    <p style="margin-top: 7px; margin-left: 80px; font-weight: bold;"><input type="number" class="InputNombre"></p>
+                                </font>
+    
+                                <div class = "CuadroDia"></div>
+                                <div class = "CuadroMes"></div>
+                                <div class = "CuadroAño"></div>
+                            </div>
+                
+                            <div class = "Division2">
+                                <p>DIRECCION DE CORRESPONDENCIA</p>
+    
+                                <font size = "2">
+                                    <p style="margin-top: 7px; margin-left: 5px; font-weight: bold;"> <input type="text" id="inputDireccion" class="InputNombre"> </p>
+                                    <p style="margin-top: 7px; margin-left: 5px; font-weight: bold;">PAIS: <input type="text" class="InputNombre"> DEPTO: <input type="text" class="InputNombre"> </p>
+                                    <p style="margin-top: 7px; margin-left: 5px; font-weight: bold;">MUNICIPIO: <input type="text" class="InputNombre"></p>
+                                    <p style="margin-top: 5px; margin-left: 5px; font-weight: bold;">TELEFONO: <input type="text" class="InputNombre"> EMAIL: <input type="text" id="inputEmail" class="InputNombre"> </p>
+                                </font>
+                            </div>
+                        </div>
+                        
+                </fieldset>
+            </font>
+        </i>
+    
+        <legend id="Informacion"> <strong>INFORMACION ACADEMICA</strong></legend>
+    
+        <fieldset class = "TercerField">
+    
+            <font size = "2">
+                <p style="font-weight: bold;">EDUCACION BASICA Y MEDIA</p>
+                <p style="margin-top: -10px;">MARQUE CON UNA X EL ÚLTIMO GRADO APROBADO ( LOS GRADOS DE 1o. A 6o. DE BACHILLERATO EQUIVALEN A LOS GRADOS 6o. A 11o. DE
+                EDUCACIÓN BÁSICA SECUNDARIA Y MEDIA )</p>
+            </font>
+    
+            <div id = "DivTercerField">
+    
+                <div id = "DivInternaTercerField">
+                    <font size = "2">
+                        <p style="text-align: center;">EDUCACION BASICA</p>
+                        <p style="padding-left: 0px; margin-top: -20px;">______________________________________________________</p>
+                    </font>
+    
+                    <div id = "DivPrimaria">
+                        <p style="font-size: 10px; text-align: center;">PRIMARIA</p>
+                    </div>
+                    <div id = "DivSecundaria">
+                        <p style="font-size: 10px; text-align: center;">SECUNDARIA</p>
+                    </div>
+                    <div id = "DivMedia">
+                        <p style="font-size: 10px; text-align: center;">MEDIA</p>
+                    </div>
+    
+                    <div class = "NumerosP"></div>
+                    <div class = "NumerosP"></div>
+                    <div class = "NumerosP"></div>
+                    <div class = "NumerosP"></div>
+                    <div class = "NumerosP"></div>
+    
+                    <div class = "NumerosS"></div>
+                    <div class = "NumerosS"></div>
+                    <div class = "NumerosS"></div>
+                    <div class = "NumerosS"></div>
+    
+                    <div class = "NumerosM"></div>
+                </div>
+    
+                <div id = "DivInternaTercerField2">
+                    <font size = "2">
+                        <p style="margin-left: 10px;">TITULO OBTENIDO:</p>
+                        <p style="padding-left: 0px; margin-top: -20px;">_____________________________________________________________________</p>
+                    </font>
+    
+                    <div id = "DivFechaDeGrado">
+                        <p style="font-size: 13px; margin-left: 10px; margin-top: -3px;">FECHA DE GRADO</p>
+                    </div>
+    
+                    <p style="font-size: 13px; margin-left: 70px; margin-top: 3px; float: left;">MES</p>
+                    <div style="border: solid 1px black; height: 20px; width: 35px; margin-top: 7px; margin-left: 15px; float: left;"></div>
+                    <p style="font-size: 13px; margin-left: 100px; margin-top: 3px; margin-left: 50px; float: left;">AÑO</p>
+                    <div style="border: solid 1px black; height: 20px; width: 60px; margin-top: 7px; margin-left: 15px; float: left;"></div>
+                </div>
+            </div>
+    
+            <div class="tabla">
+                <h4 style="padding-left: 9px; padding-top: 9px; font-size: 13px;">EDUCACION SUPERIOR (PREGRADO Y POSGRADO)</h4>
+                <p style="font-size: 13px;">DILIGENCIE ESTE PUNTO EN ESTRICTO ORDEN CRONOLOGICO. EN MODALIDAD ACADEMICA ESCRIBA (TC TECNICA)</p>
+                <table>
+                    <tr>
+                        <th style="font-size: 15px; padding: 2px;">MODALIDAD ACADEMICA</th>
+                        <th style="font-size: 15px; padding: 2px;">No. SEMESTRES APROBADOS</th>
+                        <th style="font-size: 15px; padding: 2px;">GRADUADOS Si No</th>
+                        <th style="font-size: 15px; padding: 2px;">NOMBRE DE LOS ESTUDIOS O TITULO OBTENIDO</th>
+                        <th style="font-size: 15px; padding: 2px;">TERMINACION Mes / Año</th>
+                        <th style="font-size: 15px; padding: 2px;">No. Targeta Profesional</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+    
+            <p style="font-size: 13px;">ESPECÍFIQUE LOS IDIOMAS DIFERENTES AL ESPAÑOL QUE: HABLA, LEE, ESCRIBE DE FORMA, REGULAR (R), BIEN (B) O MUY BIEN (MB)</p>
+    
+            <div class="TablaDos">
+                <table>
+                    <tr>
+                        <th style="padding: 10px 95px;">IDIOMA</th>
+                        <th colspan="3" style="padding: 0 5px;">Lo Habla</th>
+                        <th colspan="3" style="padding: 0 10px;">Lo lee</th>
+                        <th colspan="3" style="padding: 0 20px;">Lo Escribe</th>
+                    </tr>
+                    <tr>
+        
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+        
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            
+        </fieldset>
+        
+        
+        <div class="Firma" id="Firma"> 
+            <p style="float: left; padding-right: 10px;">Firma:</p>
+            <p style="float: left; padding-right: 5px;" class="toUpper"></p>
+            <p style="float: left; padding-right: 5px;" class="toUpperTwo"></p>
+            <p class="toUpperTree"></p>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="App.js"></script>
+</body>
+</html>

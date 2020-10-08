@@ -1,0 +1,515 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #404548;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; 
+
+}
+
+#relog {
+    width: 10%;
+    margin-left: 220px;
+    float: left;
+}
+
+.Container {
+    border: solid 1px black;
+    width: 80%;
+    margin: auto;
+    background: white;
+}
+
+.PrimerField{
+    border-radius: 15px;
+    box-shadow: 6px 6px 2px black;
+    text-align: center;
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 10px;
+}
+
+#Imagen{
+    margin-right: 750px;
+    margin-bottom: -90px;
+}
+
+
+#Datos{
+    border: 0px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 200px;
+    margin-left: 100px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.Firma {
+    width: 850px;
+    padding: 10px 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+#Informacion{
+    border: 0px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 300px;
+    margin-left: 100px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.SegundoField{
+    border: solid 2px black;
+    box-shadow: 6px 6px 2px black;
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    padding-bottom: 0px;
+    background-color: #EAF6F3;
+}
+
+.SegundoField p{
+    padding: 8px;
+}
+
+.TercerField{
+    border: solid 2px black;
+    box-shadow: 6px 6px 2px black;
+    width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    background-color: #EAF6F3;
+}
+
+.TercerField p{
+    padding: 8px;
+}
+
+legend{
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+
+.Div{
+    border: solid 0.5px black;
+    height: 40px;
+    width: 318px;
+    float: left;
+}
+
+.Div p{
+    padding-top: 1px;
+}
+
+
+.division{
+    border: solid 0.5px black;
+    height: 40px;
+    width: 958px;
+    float: left;
+}
+
+.division p{
+    padding-top: 1px;
+}
+
+.Division{
+    border: solid 0.5px black;
+    height: 150px;
+    width: 460px;
+    float: left;
+}
+
+.Division p{
+    padding-top: 1px;
+}
+
+.Division2{
+    border: solid 0.5px black;
+    height: 150px;
+    width: 496px;
+    float: left;
+}
+
+.Division2 p{
+    padding-top: 1px;
+}
+
+#Div1{
+    border: solid 0.5px black;
+    height: 40px;
+    width: 450px;
+    float: left;
+}
+
+#Div1 #CC{
+    font-size: 10px;
+    padding-left: 20px;
+}
+
+#Div1 p{
+    padding-top: 1px;
+}
+
+#Div2{
+    border: solid 0.5px black;
+    height: 40px;
+    width: 90px;
+    float: left;
+}
+
+#Div2 p{
+    padding-top: 1px;
+}
+
+#Div3{
+    border: solid 0.5px black;
+    height: 40px;
+    width: 414px;
+    float: left;
+}
+
+#Div3 p{
+    padding-top: 1px;
+}
+
+#DivTercerField{
+    border: solid 1px black;
+    height: 160px;
+}
+
+#DivTercerField2{
+    border: solid 1px black;
+    height: 300px;
+}
+
+#DivTercerField3{
+    border: solid 1px black;
+    height: 140px;
+}
+
+.Circle{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 40px;
+}
+
+#CE{
+    margin-top: -15px;
+    margin-left: 60px;
+}
+
+.Circle1{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 97px;
+}
+
+#PAS{
+    margin-top: -15px;
+    margin-left: 116px;
+}
+
+.Circle2{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 156px;
+}
+
+#No{
+    margin-top: -15px;
+    margin-left: 190px;
+}
+
+.CircleSexo{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 24px;
+}
+
+#M{
+    margin-top: -15px;
+    margin-left: 40px;
+}
+
+.CircleSexo1{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 65px;
+}
+
+.CircleNacionalidad{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 45px;
+}
+
+.CircleNacionalidad1{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 178px;
+}
+
+.CircleLibreta{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 130px;
+}
+
+.CircleLibreta1{
+    border: solid 1px black;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin-top: -26px;
+    margin-left: 310px;
+}
+
+.CuadroDia{
+    border: solid 1px black;
+    width: 35px;
+    height: 20px;
+    margin-top: -120px;
+    margin-left: 125px;
+}
+
+.CuadroMes{
+    border: solid 1px black;
+    width: 40px;
+    height: 20px;
+    margin-top: -22px;
+    margin-left: 245px;
+}
+
+.CuadroAño{
+    border: solid 1px black;
+    width: 60px;
+    height: 20px;
+    margin-top: -22px;
+    margin-left: 370px;
+}
+
+#DivTercerField{
+    border: solid 1px black;
+    width: 800px;
+    border-radius: 15px;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#DivInternaTercerField{
+    border: solid 1px black;
+    height: 100px;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    float: left;
+}
+
+#DivInternaTercerField2{
+    border: solid 1px black;
+    height: 100px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 446px;
+    float: left;
+}
+
+#DivPrimaria{
+    border: solid 1px black;
+    height: 25px;
+    width: 160px;
+    margin-top: -10px;
+    border-left-style: none;
+    border-right-style: none;
+    background: #C5E2ED;
+    float: left;
+}
+
+#DivSecundaria{
+    border: solid 1px black;
+    height: 25px;
+    width: 110px;
+    margin-top: -10px;
+    border-right-style: none;
+    background: #C5E2ED;
+    float: left;
+}
+
+#DivMedia{
+    border: solid 1px black;
+    border-right-style: none;
+    height: 25px;
+    width: 78px;
+    margin-top: -10px;
+    background: #C5E2ED;
+    float: left;
+}
+
+.NumerosP{
+    border: solid 1px black;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+    height: 38px;
+    width: 31.4px;
+    float: left;
+}
+
+.NumerosS{
+    border: solid 1px black;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+    height: 38px;
+    width: 26.7px;
+    float: left;
+}
+
+.NumerosM{
+    border: solid 1px black;
+    border-left-style: none;
+    border-bottom-style: none;
+    border-top-style: none;
+    height: 38px;
+    width: 37.6px;
+    float: left;
+}
+
+#DivFechaDeGrado{
+    border: solid 1px black;
+    border-left-style: none;
+    border-right-style: none;
+    margin-top: -10px;
+    height: 25px;
+    background: #C5E2ED;
+}
+
+.tabla {
+    margin-top: 40px;
+    border: solid 1px black;
+
+}
+.tabla table {
+    margin-top: 10px;
+}
+
+.tabla th {
+    background: #D9F1F6;
+}
+
+.tabla table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.tabla td {
+    padding: 20px;
+}
+
+.TablaDos {
+    border: solid 1px black;
+    width: 56%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto;
+}
+
+.TablaDos table {
+    margin: auto;
+}
+
+.TablaDos table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.TablaDos table td {
+    padding: 13px;
+}
+
+.TablaDos th {
+    background: #D9F1F6;
+}
+
+.TablaDos table {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}
+
+/* Inputs */
+
+.InputNombre {
+    border: solid 1px black;
+    margin-top: -5px;
+    margin-left: 6px;
+    height: 20px;
+    background: none;
+    color: black;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    outline: 0px;
+}
+
+#inputEmail {
+    width: 160px;
+}
+
+#inputDireccion {
+    width: 370px;
+}
